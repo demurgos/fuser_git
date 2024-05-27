@@ -11,5 +11,6 @@ opentelemetry = "0.23.0"
 [workspace]
 members = [
     ".",
-    "./examples/linux-kernel/"
+    "./examples/linux-kernel",
+    "./opentelemetry",
 ]

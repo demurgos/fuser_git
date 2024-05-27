@@ -1,3 +1,4 @@
+mod gitlab;
 pub mod opentelemetry;
 
 pub use fuser;

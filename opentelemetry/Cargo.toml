@@ -1,0 +1,9 @@
+[package]
+name = "opentelemetry_fuser"
+version = "0.23.0"
+edition = "2021"
+
+[dependencies]
+fuser = { version = "0.14.0", default-features = false, features = ["abi-7-16"] }
+libc = "0.2.155"
+opentelemetry = "0.23.0"
