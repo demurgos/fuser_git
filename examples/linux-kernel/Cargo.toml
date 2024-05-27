@@ -5,3 +5,7 @@ edition = "2021"
 
 [dependencies]
 fuser_git = { path = "../.." }
+opentelemetry = "0.23.0"
+opentelemetry-semantic-conventions = "0.15.0"
+opentelemetry-stdout = "0.4.0"
+opentelemetry_sdk = "0.23.0"

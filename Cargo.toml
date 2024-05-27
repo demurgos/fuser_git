@@ -4,8 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-fuser = { version = "0.14.0", default-features = false, features = ["serde"] }
+fuser = { version = "0.14.0", default-features = false, features = ["abi-7-16", "serde"] }
 libc = "0.2.155"
+opentelemetry = "0.23.0"
 
 [workspace]
 members = [

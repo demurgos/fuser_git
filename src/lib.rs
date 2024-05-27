@@ -1,3 +1,5 @@
+pub mod opentelemetry;
+
 pub use fuser;
 use fuser::{
     FileAttr, FileType, Filesystem, ReplyAttr, ReplyData, ReplyDirectory, ReplyEntry, Request,
