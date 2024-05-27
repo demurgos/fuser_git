@@ -1,0 +1,7 @@
+[package]
+name = "fuser_git_example_linux_kernel"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+fuser_git = { path = "../.." }

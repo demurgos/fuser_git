@@ -1,0 +1,14 @@
+[package]
+name = "fuser_git"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+fuser = { version = "0.14.0", default-features = false, features = ["serde"] }
+libc = "0.2.155"
+
+[workspace]
+members = [
+    ".",
+    "./examples/linux-kernel/"
+]
